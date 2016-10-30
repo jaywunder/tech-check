@@ -3,18 +3,58 @@
     <?php
 
       if (!isset($navitems)) $navitems = [
-        'Home' => 'index.php',
-        'Form' => 'form.php',
-        'Spec' => 'spec.pdf'
+        'Home' => [
+          'rootlink' => '',
+          'Home2' => '',
+          'Aboot' => 'about/',
+          'A boot' => 'about/',
+          'Crypto' => 'crypto/'
+        ],
+        'About' => 'about/',
+        'Crypto' => 'crypto/',
       ];
 
-      foreach ($navitems as $navname => $navfile) {
-        print '<li class="';
-        if ($path_parts['filename'] . '.' . $path_parts['extension'] == $navfile) {
-          print 'active-page';
+      foreach ($navitems as $navname => $navitem) {
+
+        $is_active = false;
+
+        if (is_array($navitem))
+          print_dropdown($navname, $navitem, $is_active);
+
+        else
+          print_item($navname, $navitem, $is_active);
+      }
+
+      function print_dropdown($name, $array, $is_active) {
+        global $ROOT_DIRECTORY;
+
+        if ($is_active) $activeclass = 'active-page';
+        else $activeclass = '';
+
+        $rootlink = $array['rootlink'];
+        unset($array['rootlink']);
+
+        print '<li class="dropdown '. $activeclass .'">';
+        print '<a href="'. $ROOT_DIRECTORY . $rootlink .'">'. $name .'</a>';
+        print '<ol class="dropdown-content">';
+
+        foreach ($array as $name => $link) {
+          print_item($name, $link);
         }
-        print '">';
-        print "<a href=\"$navfile\">$navname</a>";
+
+        print '</ol>';
+        print '</li>';
+      }
+
+      function print_item($name, $link, $is_active = false) {
+        global $ROOT_DIRECTORY;
+
+        if ($is_active)
+          print '<li class="active">';
+        else
+          print '<li>';
+
+        print '<a href="'. $ROOT_DIRECTORY . $link .'">'. $name .'</a>';
         print '</li>';
       }
     ?>

@@ -1,5 +1,6 @@
 <?php include 'includes/top.php'; ?>
 
-HELLOOOO
+<h1>Home</h1>
+
 
 <?php include 'includes/bottom.php'; ?>

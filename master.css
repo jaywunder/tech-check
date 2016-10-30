@@ -5,7 +5,7 @@ body {
   --link-color: #242049;
 
   font-family: sans-serif;
-  margin: 3em 6em;
+  margin: 6em 6em;
   width: 90%;
   font-size: 1em;
   color: var(--text-color);
@@ -19,6 +19,7 @@ a {
 /* NAV */
 nav {
   /*--background-color: #caebf2;*/
+  --hover-color: #d6d6d6;
 
   position: fixed;
   height: 3em;
@@ -30,29 +31,29 @@ nav {
 }
 
 nav ol li.active-page {
-  background-color: var(--background-color);
+  background-color: var(--hover-color);
 }
 
-nav ol {
+nav > ol {
   padding-left: 5.33%;
   height: 100%;
   margin: 0;
 }
 
-nav ol li {
-  padding-top: .8em;
+nav > ol li {
+  padding-top: 1em;
   display: inline-block;
   list-style-type: none;
   width: 7em;
-  height: calc(100% - .8em);
+  height: calc(100% - 1em);
   text-align: center;
+  border-bottom: 1px solid var(--text-color);
 }
 
-nav ol li a {
+nav > ol li a {
   vertical-align: middle;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-decoration: none;
-  padding-top: 10em;
 }
 
 .dropdown {
@@ -61,9 +62,18 @@ nav ol li a {
 }
 
 .dropdown-content {
+  border: 1px solid var(--text-color);
+  border-top: none;
   display: none;
+  margin-top: calc(.5em + 2px);
+  padding-left: 0;
   position: absolute;
-  z-index: 1;
+}
+
+.dropdown-content > li {
+  background-color: var(--background-color);
+  border: none;
+  padding-bottom: 1em;
 }
 
 .dropdown:hover .dropdown-content {

@@ -30,6 +30,12 @@
 
   $phpSelf = htmlentities($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8");
   $path_parts = pathinfo($phpSelf);
+
+  $ROOT_DIRECTORY = preg_replace(
+    "/(\/.*\/tech-check).*/",
+    "$1/",
+    $path_parts['dirname']
+  );
 ?>
 
 <html>
@@ -50,10 +56,15 @@
     <!-- Start including libraries -->
 
     <?php
-      require_once '../lib/security.php';
+      print_debug(
+        $path_parts['dirname'] . '/',
+        $ROOT_DIRECTORY
+      );
 
-      if ($path_parts['filename'] == "form")
-        include "../lib/validation-functions.php";
+      if ($path_parts['dirname'] . '/' == $ROOT_DIRECTORY)
+        require_once 'lib/security.php';
+      else
+        require_once '../lib/security.php';
     ?>
 
     <!-- End including libraries -->

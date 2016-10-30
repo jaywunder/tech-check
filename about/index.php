@@ -1,5 +1,9 @@
 <?php include '../includes/top.php'; ?>
 
-<h1>About</h1>
+<article class="">
+
+  <h1>About</h1>
+
+</article>
 
 <?php include '../includes/bottom.php'; ?>
