@@ -82,12 +82,21 @@ nav > ol li a {
 
 /* ARTICLE */
 article {
-
+  width: 70%;
+  margin: 0 4em;
 }
 
 aside {
   margin: 0 auto;
   width: 69.78%;
+}
+
+aside.left {
+  float: left;
+}
+
+aside.right {
+  float: right;
 }
 
 p {
