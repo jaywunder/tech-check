@@ -1,0 +1,126 @@
+/* Body and general styles */
+body {
+  font-family: sans-serif;
+  margin: 3em 6em;
+  width: 90%;
+  font-size: 1em;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  height: 3em;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7e95c3;
+  border-bottom: 1px solid #607298;
+}
+
+nav ol li.active-page {
+  background-color: #607298;
+}
+
+nav ol {
+  padding-left: 5.33%;
+  height: 100%;
+  margin: 0;
+}
+
+nav ol li {
+  padding-top: .8em;
+  display: inline-block;
+  list-style-type: none;
+  width: 7em;
+  height: calc(100% - .8em);
+  text-align: center;
+}
+
+nav ol li a {
+  vertical-align: middle;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+  padding-top: 10em;
+}
+
+/* ARTICLE */
+article {
+
+}
+
+aside {
+  margin: 0 auto;
+  width: 69.78%;
+}
+
+p {
+  text-indent: 1.5em;
+  line-height: 1.5em;
+}
+
+/* FOOTER */
+footer {
+  clear: both;
+  padding: 0.8em 5.33%;
+  text-align: center;
+}
+
+/* FORM */
+form {
+  border: 1px solid #00498e;
+  float: none;
+  margin: auto;
+  padding: 1em;
+  text-align: left;
+  width: 600px;
+}
+
+fieldset {
+  border: 1px solid #00498e;
+  clear: both;
+  margin: 1em;
+  padding: 1.5em;
+  border-radius: .2em;
+}
+
+fieldset input[type="text"] {
+  font-size: 1em;
+  padding: .2em .5em;
+  border-radius: .2em;
+  border: 1px solid #00498e;
+}
+
+input[type="button"], input[type="submit"] {
+  background-color: white;
+  color: #00498e;
+  font-size: 1em;
+  padding: .2em .5em;
+  border-radius: .2em;
+  border: 1px solid #00498e;
+}
+
+label {
+  color: #005cb3;
+  display: block;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+.mistake {
+  color: #fff;
+  background-color: #800;
+  border: thin solid black;
+}
+
+#errors ol li{
+  color: #ff5555;
+}
+
+/* DEBUG CLASSES */
+.debug {
+  background-color: rgba(125, 208, 86, 0.61);
+  border: 1px green solid;
+  font-family: monospace;
+  padding: .5em;
+}
