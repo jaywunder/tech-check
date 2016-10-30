@@ -17,7 +17,7 @@ In this project we're going to use branch git flow. Here's an example of branch 
  4. Jacob will look at your code and approve or reject your pull request
 
 ### Commits
-When you commit, you should have your commit title, with how long it took you to make the commit in this structure: `Initial Commit 1hour`.  It is important you include the string "hour" in the commit name. We'll be using this structure to make sure our timestamps are correct.
+When you commit, you should have your commit title, with how long it took you to make the commit in this structure: `Initial Commit 1hour` or `Initial Commit 10minutes`.  It is important you include the string "hour" or "minutes" in the commit name. We'll be using this structure to make sure our timestamps are correct and auto generate our time schedule
 
 ### File Structure
 Every p

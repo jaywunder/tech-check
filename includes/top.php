@@ -50,10 +50,10 @@
     <!-- Start including libraries -->
 
     <?php
-      require_once 'lib/security.php';
+      require_once '../lib/security.php';
 
       if ($path_parts['filename'] == "form")
-        include "lib/validation-functions.php";
+        include "../lib/validation-functions.php";
     ?>
 
     <!-- End including libraries -->

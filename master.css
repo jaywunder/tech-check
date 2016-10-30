@@ -1,24 +1,36 @@
 /* Body and general styles */
 body {
+  --background-color: #efefef;
+  --text-color: #141414;
+  --link-color: #242049;
+
   font-family: sans-serif;
   margin: 3em 6em;
   width: 90%;
   font-size: 1em;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+a {
+  color: var(--link-color);
 }
 
 /* NAV */
 nav {
+  /*--background-color: #caebf2;*/
+
   position: fixed;
   height: 3em;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #7e95c3;
-  border-bottom: 1px solid #607298;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--text-color);
 }
 
 nav ol li.active-page {
-  background-color: #607298;
+  background-color: var(--background-color);
 }
 
 nav ol {
@@ -40,8 +52,22 @@ nav ol li a {
   vertical-align: middle;
   font-size: 1.5em;
   text-decoration: none;
-  color: black;
   padding-top: 10em;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* ARTICLE */
