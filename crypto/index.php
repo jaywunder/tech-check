@@ -89,6 +89,8 @@
   </ul>
   <h2>Whitepaper</h2>
   <p>​A White paper is basically the mission statement and technical description of a cryptocurrency. Bitcoin, Dash, and Ethereum all have their own White paper. Click here for a list of links to relevant white papers.</p>
+  <h2> Myths</h2>
+
 </article>
 
 <?php include '../includes/bottom.php'; ?>
