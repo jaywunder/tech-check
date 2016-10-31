@@ -21,3 +21,30 @@ When you commit, you should have your commit title, with how long it took you to
 
 ### File Structure
 Every p
+
+### Responsibilities
+
+Trey
+
+ - Mac
+ - Linux
+ - Bitcoin
+ - FAQ
+
+Kyle
+
+ - PC
+  - History
+  - Common problems
+ - Small form - "Join our Newsletter"
+  - Name (Optional)
+  - Email
+  - Save emails/names in a CSV in the `data` folder
+  - Option for daily/weekly/monthly emails (Radio button)
+  - Default monthly
+ - Quality Assurance
+
+Jacob
+
+ - Large form - "Help wanted"
+ - Styling
