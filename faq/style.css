@@ -1,0 +1,32 @@
+section.faq > .container {
+  display: block;
+  border: 1px var(--border-color) solid;
+  border-radius: .5em;
+  width: 100%;
+  padding: .7em;
+}
+
+section.faq > .checkbox {
+  display: none;
+}
+
+section.faq > .header {
+
+}
+
+.content {
+  max-height: 0px;
+  overflow: auto;
+  transition: max-height .25s;
+}
+
+section.faq > .checkbox:checked ~ .container > .content {
+  max-height: 200em;
+  transition: max-height 1s;
+}
+
+section.faq > .checkbox:checked ~ .container {
+  /*background: blue;*/
+  /*color: white;*/
+  height 200px;
+}

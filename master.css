@@ -2,11 +2,11 @@
 body {
   --background-color: #efefef;
   --text-color: #141414;
+  --border-color: #141414;
   --link-color: #242049;
 
   font-family: sans-serif;
   margin: 6em 6em;
-  width: 90%;
   font-size: 1em;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -18,7 +18,6 @@ a {
 
 /* NAV */
 nav {
-  /*--background-color: #caebf2;*/
   --hover-color: #d6d6d6;
 
   position: fixed;
@@ -27,7 +26,7 @@ nav {
   left: 0;
   width: 100%;
   background-color: var(--background-color);
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 nav ol li.active-page {
@@ -47,7 +46,7 @@ nav > ol li {
   width: 7em;
   height: calc(100% - 1em);
   text-align: center;
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 nav > ol li a {
@@ -62,7 +61,7 @@ nav > ol li a {
 }
 
 .dropdown-content {
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--border-color);
   border-top: none;
   display: none;
   margin-top: calc(.5em + 2px);
@@ -113,7 +112,7 @@ footer {
 
 /* FORM */
 form {
-  border: 1px solid #00498e;
+  /*border: 1px solid #00498e;*/
   float: none;
   margin: auto;
   padding: 1em;
@@ -122,7 +121,7 @@ form {
 }
 
 fieldset {
-  border: 1px solid #00498e;
+  /*border: 1px solid #00498e;*/
   clear: both;
   margin: 1em;
   padding: 1.5em;
@@ -133,7 +132,7 @@ fieldset input[type="text"] {
   font-size: 1em;
   padding: .2em .5em;
   border-radius: .2em;
-  border: 1px solid #00498e;
+  /*border: 1px solid #00498e;*/
 }
 
 input[type="button"], input[type="submit"] {
@@ -142,11 +141,11 @@ input[type="button"], input[type="submit"] {
   font-size: 1em;
   padding: .2em .5em;
   border-radius: .2em;
-  border: 1px solid #00498e;
+  /*border: 1px solid #00498e;*/
 }
 
 label {
-  color: #005cb3;
+  /*color: #005cb3;*/
   display: block;
   font-size: .9em;
   font-weight: bold;
