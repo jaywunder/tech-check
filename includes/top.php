@@ -32,7 +32,7 @@
   $path_parts = pathinfo($phpSelf);
 
   $ROOT_DIRECTORY = preg_replace(
-    "/(\/.*\/tech-check).*/",
+    "/((\/.*)?\/tech-check).*/",
     "$1/",
     $path_parts['dirname']
   );
