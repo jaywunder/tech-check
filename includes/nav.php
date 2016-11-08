@@ -12,6 +12,8 @@
         ],
         'About' => 'about/',
         'Crypto' => 'crypto/',
+        'FAQ' => 'faq/',
+        'We\'re Hiring' => 'hiring/',
       ];
 
       foreach ($navitems as $navname => $navitem) {

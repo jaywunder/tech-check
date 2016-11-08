@@ -1,5 +1,7 @@
 <?php
 
+$THING = 111111;
+
 function verifyAlphaNum ($testString) {
 	return (preg_match ("/^([[:alnum:]]|-|\.| |')+$/", $testString));
 }
