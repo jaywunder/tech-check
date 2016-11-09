@@ -18,7 +18,8 @@
 
       if (!verifyEmail($post['txtEmail'])) $errors[] = 'txtEmail';
 
-      if (!verifyPhone($post['txtPhone'])) $errors[] = 'txtPhone';
+      // TODO: Uncomment when ready
+      // if (!verifyPhone($post['txtPhone'])) $errors[] = 'txtPhone';
 
       return $errors;
     }
