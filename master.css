@@ -199,6 +199,11 @@ input[type="text"] .error {
   color: #ff5555;
 }
 
+.error-list {
+  list-style: decimal;
+  color: red;
+}
+
 /* DEBUG CLASSES */
 .debug {
   background-color: rgba(125, 208, 86, 0.61);

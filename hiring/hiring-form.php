@@ -1,8 +1,24 @@
 <?php
 
-  print('ERRORS:');
-  print_r($errors);
-  print(in_array('txtPhone', $errors));
+  // print('ERRORS:');
+  // print_r($errors);
+
+  $beenSubmitted = !in_array('submit', $errors);
+
+  if ($beenSubmitted AND count($errors) > 0) {
+    $errors = array_unique($errors);
+
+    print '<h3>There were some errors in your form submition</h3>';
+    print '<ol class="error-list">';
+
+    foreach ($errors as $i => $error) {
+      $camelCase = preg_split('/(?=[A-Z])/', substr($error, 3));
+
+      print "<li class=\"error-listing\"> $camelCase[1] </li>";
+    }
+
+    print '</ol>';
+  }
 
 ?>
 
