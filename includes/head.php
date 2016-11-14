@@ -12,11 +12,12 @@
   <meta name="description" content="Tech Check">
 
   <?php
-    $master_css_link = preg_replace(
-      "/(\/.*\/tech-check).*/",
-      "$1/master.css",
-      $path_parts['dirname']
-    );
+    $master_css_link = $ROOT_DIRECTORY . 'master.css';
+    // $master_css_link = preg_replace(
+    //   "/(\/.*\/tech-check).*/",
+    //   "$1/master.css",
+    //   $path_parts['dirname']
+    // );
 
     print "<link rel=\"stylesheet\" href=\"$master_css_link\">";
 
