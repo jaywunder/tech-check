@@ -25,6 +25,7 @@
   Dash</li>
   <li>
   Ethereum</li>
+
   </ul>
   <ol start='3' ><li>
   What this means for you and the rest of the world:</li>
@@ -92,5 +93,5 @@
   <h2> Myths</h2>
 
 </article>
-
+   
 <?php include '../includes/bottom.php'; ?>
