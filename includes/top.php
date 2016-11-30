@@ -61,10 +61,14 @@
         $ROOT_DIRECTORY
       );
 
-      if ($path_parts['dirname'] . '/' == $ROOT_DIRECTORY)
-        require_once 'lib/security.php';
-      else
+      if ($path_parts['dirname'] . '/' == $ROOT_DIRECTORY) {
+        require_once './lib/security.php';
+        require_once './lib/validation_functions.php';
+      }
+      else {
         require_once '../lib/security.php';
+        require_once '../lib/validation_functions.php';
+      }
     ?>
 
     <!-- End including libraries -->
