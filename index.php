@@ -71,14 +71,6 @@
   }
 ?>
 
-<!doctype html>
-<html>
-<head>
-<meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width initial-scale=1'>
-<title>Home Page</title>
-</head>
-<body>
 <h1>Welcome to Tech Check</h1>
 <h2>Your home for computer science knowledge and assistance</h2>
 <p></p>
@@ -107,9 +99,6 @@ Sunday: 11AM - 3PM</li>
 <p>We really appreciate our strong customer base and strongly encourage you to sign up for our newsletter so we can keep you up to date on all of our weekly updates. Peace, Love, and Technology.</p>
 <p></p>
 <p>--The Tech Check Team</p>
-</body>
-</html>
-
 
 <section id="mission-statement"></section>
 
