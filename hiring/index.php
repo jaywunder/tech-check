@@ -1,4 +1,5 @@
 <?php include '../includes/top.php'; ?>
+<?php include '../lib/csv.php'; ?>
 
   <?php
     print_debug($_POST);
@@ -27,7 +28,10 @@
 
     if (!empty($errors)) include './hiring-form.php';
 
-    else include 'valid-submit.php';
+    else {
+      saveRow('../data/hiring_data.csv', $_POST);
+      include 'valid-submit.php';
+    }
   ?>
 
 <?php include '../includes/bottom.php'; ?>
