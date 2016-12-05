@@ -41,7 +41,8 @@
   } 
 ?>
 
-<h1>Home</h1>
+<?php include 'homepage/homepage.php'; ?>
+<?php include 'newsletter/index.php'; ?>
 
 <section id="mission-statement"></section>
 

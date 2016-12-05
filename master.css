@@ -2,11 +2,11 @@
 body {
   --background-color: #efefef;
   --text-color: #141414;
+  --border-color: #141414;
   --link-color: #242049;
 
   font-family: sans-serif;
   margin: 6em 6em;
-  width: 90%;
   font-size: 1em;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -18,7 +18,6 @@ a {
 
 /* NAV */
 nav {
-  /*--background-color: #caebf2;*/
   --hover-color: #d6d6d6;
 
   position: fixed;
@@ -27,7 +26,7 @@ nav {
   left: 0;
   width: 100%;
   background-color: var(--background-color);
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 nav ol li.active-page {
@@ -47,7 +46,7 @@ nav > ol li {
   width: 7em;
   height: calc(100% - 1em);
   text-align: center;
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 nav > ol li a {
@@ -62,7 +61,7 @@ nav > ol li a {
 }
 
 .dropdown-content {
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--border-color);
   border-top: none;
   display: none;
   margin-top: calc(.5em + 2px);
@@ -113,7 +112,6 @@ footer {
 
 /* FORM */
 form {
-  border: 1px solid #00498e;
   float: none;
   margin: auto;
   padding: 1em;
@@ -122,18 +120,35 @@ form {
 }
 
 fieldset {
-  border: 1px solid #00498e;
+  color: var(--text-color);
+  border: none;
   clear: both;
   margin: 1em;
   padding: 1.5em;
   border-radius: .2em;
 }
 
-fieldset input[type="text"] {
+legend {
+  font-size: 2em;
+  border-bottom: 1px solid var(--border-color);
+  width: 100%;
+}
+
+input[type="text"], select {
   font-size: 1em;
   padding: .2em .5em;
   border-radius: .2em;
-  border: 1px solid #00498e;
+  width: 20em;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  padding: .5em;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid var(--border-color);
+}
+
+input[type="text"]:focus, select:focus {
+  outline: none;
 }
 
 input[type="button"], input[type="submit"] {
@@ -142,17 +157,39 @@ input[type="button"], input[type="submit"] {
   font-size: 1em;
   padding: .2em .5em;
   border-radius: .2em;
-  border: 1px solid #00498e;
+  /*border: 1px solid #00498e;*/
+}
+
+input[type="radio"] {
+  display: inline;
+  border: 1px solid var(--border-color);
+  border-radius: 10%;
+  background-color: black;
+}
+
+input[type="radio"] ~ label {
+  display: inline;
 }
 
 label {
-  color: #005cb3;
+  /*color: #005cb3;*/
   display: block;
   font-size: .9em;
   font-weight: bold;
 }
 
-.mistake {
+button {
+  font-size: 1em;
+  padding: .2em .5em;
+  border-radius: .2em;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  padding: .5em;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid var(--border-color);
+}
+
+input[type="text"] .error {
   color: #fff;
   background-color: #800;
   border: thin solid black;
@@ -160,6 +197,11 @@ label {
 
 #errors ol li{
   color: #ff5555;
+}
+
+.error-list {
+  list-style: decimal;
+  color: red;
 }
 
 /* DEBUG CLASSES */
