@@ -3,8 +3,9 @@
 
 <h1>Crypto-currencies. Block-chain. Bitcoin.</h1>
 
+<hr>
+
 <article class="">
-  <h1>What does it mean?</h1>
   <p>​	In the last few years Bitcoin has become a household vocabulary word. You hear about hacks on the internet, shady dealings with bitcoin, and even bitcoin vending machines. Despite the common use of this word, not everybody fully understands what Bitcoin is and what it means for the future of computing. We&#39;re here to change that.</p>
   <p></p>
   <ol start='' ><li>
@@ -93,5 +94,5 @@
   <h2> Myths</h2>
 
 </article>
-   
+
 <?php include '../includes/bottom.php'; ?>

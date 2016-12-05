@@ -16,6 +16,10 @@ a {
   color: var(--link-color);
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 /* NAV */
 nav {
   --hover-color: #d6d6d6;
