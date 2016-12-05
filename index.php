@@ -1,4 +1,5 @@
-<?php include 'includes/top.php'; ?>
+<?php include 'includes/top.php';?>
+<?php include 'lib/csv.php';?>
   
   <?php
   print_debug($_POST);
@@ -14,16 +15,18 @@
       }
     }
     
-    if (!verifyAlphaNum($post['txtFirstName'])) $errors[] = 'txtFirstName';
-    if (!verifyAlphaNum($post['txtLastName'])) $errors[] = 'txtLastName';
-    if (!verifyAlphaNum ($post['txtEmail'])) $errors[] = 'txtEmail';
+    if (!verifyAlphaNum($post['txtName'])) $errors[] = 'txtName';
+    if (!verifyAlphaNum($post['txtEmail'])) $errors[] = 'txtEmail';
     
     return $errors;
   }
   
   $errors = getFormErrors($_POST);
   
-  /* if (!empty($errors)); */
+  if (!empty($errors)) { 
+    saveRow('../data/newsletterRegister.csv', $_POST);
+    include 'homepage/submitted_page';
+  }
           
   $beenSubmitted = !in_array('submit', $errors);
   if ($beenSubmitted AND count($errors) > 0){
@@ -56,34 +59,23 @@
   <fieldset class="newsletter">
   <legend>Tech-Check Times</legend>
   <p id="newsletter"><i>* = Required </i></p>
-  <label class="required" for="txtFirstName">*First Name:
+  <label class="required" for="txtName">*Full Name:
   <input
-    id="txtFirstName"
+    <?php if (in_array('txtName', $errors)) print 'class="error"' ?>
+    id="txtName"
     maxlength="50"
-    name="txtFirstName"
+    name="txtName"
     onfocus="this.select()"
-    placeholder="First name"
+    placeholder="Full Name"
     tabindex="100"
     type="text"
-    value="<?php print $firstName ?>"
-    >
-  </label>
-  <br/>
-  <label class="required" for="txtLastName">*Last Name:
-  <input 
-    id="txtLastName"
-    maxlength="50"
-    name="txtLastName"
-    onfocus="this.select()"
-    placeholder="Last name"
-    tabindex="100"
-    type="text"
-    value="<?php print $lastName ?>"
+    value="<?php echo $_POST['txtName'] ?>"
     >
   </label>
   <br/>
   <label class="required" for="txtEmail">*Email:
   <input
+    <?php if (in_array('txtEmail', $errors)) print 'class="error"' ?>
     id="txtEmail"
     maxlength="50"
     name="txtEmail"
@@ -91,7 +83,7 @@
     placeholder="Email address"
     tabindex="100"
     type="text"
-    value="<?php print $email ?>"
+    value="<?php echo $_POST['txtEmail'] ?>"
     >
   </label>
   <br/>
@@ -108,6 +100,7 @@
   <input id="yearly" type="radio" name="information" value="Yearly">
   </label>  
   <br/>
+  
   <button type="submit" value="submitted" name="submit">Submit</button>
   </fieldset>
   </form>
