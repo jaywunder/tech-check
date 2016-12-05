@@ -1,9 +1,0 @@
-
-<?php include './includes/top.php'; ?>
-<?php include 'homepage.php'; ?>
-
-<p>Thanks for registering for our newsletter! You will receive the next newsletter by email next Wednesday.</p>
-
-
-
-<?php include './includes/bottom.php'; ?>
