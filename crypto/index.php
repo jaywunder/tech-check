@@ -76,22 +76,27 @@
   <h2>What this means for you and the rest of the world</h2>
   <p></p>
   <h3>Accessibility</h3>
+  <p> Cryptocurrencies are available to anyone with an internet connection, making it much more expanisve than the current network of people who can use banks.
+  </p>
   <h3>Decentralization</h3>
+  <p>Cryptocurrencies are not monitored by a single source, but instead the whole network. This means the power over the network can not be abused.
+  </p>
   <h3>Applications:</h3>
   <p>​	Cryptocurrency and the underlying block chain technology both have unique potential applications. </p>
   <ul><li>
   <h4>Real Estate</h4>
+    <p> Blockchain technologies can be used to provide people with proof of ownership of a house in 3rd world countries.</p>
   </li>
   <li>
   <h4>Elections</h4>
+    <p> Blockchain technologies hold a very unique potential to revolutionalize and modernize our election system without opening it up to cyber-security threats.</p>
+    
   </li>
-  <li>
-  <h4>Government Documents</h4>
-  </li>
+
   </ul>
   <h2>Whitepaper</h2>
   <p>​A White paper is basically the mission statement and technical description of a cryptocurrency. Bitcoin, Dash, and Ethereum all have their own White paper. Click here for a list of links to relevant white papers.</p>
-  <h2> Myths</h2>
+ 
 
 </article>
 
