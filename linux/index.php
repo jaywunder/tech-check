@@ -1,9 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>about_linux</title></head>
-<body><h1>About Linux</h1>
+<?php include '../includes/top.php'; ?>
+
+
+<h1>About Linux</h1>
 <p></p>
 <p></p>
 <h2>Introduction</h2>
@@ -18,12 +16,13 @@ Debian, an open source Linux distribution released in 1993, was used as the basi
 Red Hat Linux, now discontinued, was used as the basis for designing Red Hat Enterprise Linux (RHEL) and its open source counterpart, Fedora. CentOS is a Linux distribution based on RHEL.</li>
 </ul>
 <ul><li>
-Slackware, an improved version of the discontinued Softlanding Linux System (SLS), is an active open source distribution that was used as the basis for developing SUSE Linux, a commercial Linux distribution that spawned the development of openSUSE, its open source counterpart.</li>
+Slackware, an improved version of the discontinued Softlanding Linux System (SLS), is an active open source distribution that was used as the basis for developing SUSE Linux, a commercial Linux distribution that spawned the development of openSUSE, its open source equal.</li>
 </ul>
 <p> Each distribution has its own individual strengths and weaknesses. Some distributions are very similar to each other, with only minor differences, while others have significant differences. Also, some distributions are designed for specific types of computers.</p>
 <p></p>
 <h2>Why I Like It</h2>
-<p>​	I first started using Linux because of how lightweight and accessible it is. You can download it for free, burn it onto a USB or CD, and then load it onto any computer. This ease of access was why I began using Linux, but the many benefits of the Linux kernel kept me a frequent user. Between the package managing and ease of use for things like LAMP stacks, Linux is a developers best friend. </p>
-<p>​	</p>
-</body>
-</html>
+<p>	I first started using Linux because of how lightweight and accessible it is. You can download it for free, burn it onto a USB or CD, and then load it onto any computer. This ease of access was why I began using Linux, but the many benefits of the Linux kernel kept me a frequent user. Between the package managing and ease of use for things like LAMP stacks, Linux is a developers best friend. </p>
+<h2>Should you use it? </h2>
+<p>	Well, I honestly think you should all try it. Even if you aren't a computer person it is still interesting to experience a completely different Operating System. It shows you the different ways that User Interface design techniques can be implemented. ​	The trick with Linux distributions is that you need to be able to use the command line to get things done. Its a very convenient and useful skill to be familiar with, but it can definitely be a bit intimidating to learn. I suggest watching online tutorials that cover the different basic commands used in day to day Linux usage. I also suggest using Debian Linux, its the chillest. Enjoy your new operating sy</p>
+
+<?php include '../includes/bottom.php'; ?>
