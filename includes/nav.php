@@ -5,13 +5,18 @@
       if (!isset($navitems)) $navitems = [
         'Home' => [
           'rootlink' => '',
-          'Home2' => '',
-          'Aboot' => 'about/',
-          'A boot' => 'about/',
-          'Crypto' => 'crypto/'
+          'About' => 'about/',
+          'Linux' => 'linux/',
+          'Crypto' => 'crypto/',
+          'FAQ' => 'faq/'
+
         ],
         'About' => 'about/',
-        'Crypto' => 'crypto/',
+        'Linux' => 'linux/',
+        'Crypto' => [
+          'rootlink' =>  'crypto/',
+          'Whitepaper' => 'whitepaper/'
+        ],
         'FAQ' => 'faq/',
         'We\'re Hiring' => 'hiring/',
       ];
