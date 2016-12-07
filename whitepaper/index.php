@@ -1,4 +1,4 @@
-
+<?php include '../includes/top.php'; ?>
 
 <h1>Whitepapers</h1>
 <h3>Whitepaper is defined as: &quot;a government or other authoritative report giving information or proposals on an issue&quot;. Cryptocurrency whitepapers are basically the same thing. They are write-ups of both the practical use of a currency and the theoretical applications of that currency. I list different whitepapers below that you can download, each accompanied by my own personal opinion of that currency.</h3>
@@ -17,3 +17,4 @@
 <p>	Dash software isnt the easiest to use because it doesnt have the best developement at this time, but it definitely works.<br/></p>
 <p></p>
 <p></p>
+<?php include '../includes/bottom.php'; ?>
