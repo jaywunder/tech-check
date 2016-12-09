@@ -18,6 +18,8 @@ section.faq > .header {
   max-height: 0px;
   overflow: auto;
   transition: max-height .25s;
+  font-size: 2em;
+  font-style: normal;
 }
 
 section.faq {
@@ -27,4 +29,8 @@ section.faq {
 section.faq > .checkbox:checked ~ .container > .content {
   max-height: 200em;
   transition: max-height 1s;
+}
+
+p {
+  text-indent: 0;
 }

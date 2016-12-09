@@ -1,0 +1,482 @@
+commit 6197730937f303db6ca7bd9be0301e1804acb2ab
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 22:37:30 2016 -0500
+
+    Updated about/index.php, 30 minutes
+
+commit 3d7ab7be518da78467578b7e6b0ff558698b2903
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 22:32:19 2016 -0500
+
+    Update crypto/index.phpp 30 minutes
+
+commit d1108dc8814b265b5393ae7e11e0837295d9d9c1
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 22:27:07 2016 -0500
+
+    Updated faq/index.php, 1 hour
+
+commit a1c7b3dea4c8320588e4f04987d3736262921de6
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 22:04:16 2016 -0500
+
+    Updated nav.php
+
+commit fdb7eb61f2c4c96fe0b40c869848b76131761a9a
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 21:57:55 2016 -0500
+
+    Update index.php
+
+commit 043669e0cc7898ccbddb4e4189d6261b83511cda
+Merge: 67eee61 39b811e
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Tue Dec 6 21:54:01 2016 -0500
+
+    Merge pull request #14 from jaywunder/Linux
+    
+    Updated index.php, 35 minutes
+
+commit 39b811e2d0c2688548fa676371a24f65c897cd86
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 21:52:44 2016 -0500
+
+    Updated index.php, 35 minutes
+
+commit 67eee616876f77f4615963333aff51f850233e34
+Merge: c8a281c dc6d82d
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Tue Dec 6 20:32:03 2016 -0500
+
+    Merge pull request #13 from jaywunder/Whitepaper-current
+    
+    Whitepaper current
+
+commit dc6d82da5133750bd38ef8e02b66eb6b32fe82e5
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 17:20:13 2016 -0500
+
+    Updated index.php, 30 minutes
+
+commit 055ab9608fb42dddea90294de3e2dfe2dac4e93e
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 17:15:24 2016 -0500
+
+    update index.php, 5 minutes
+
+commit 3a373bd57402469844d046cbba450b7276b4a987
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 17:11:25 2016 -0500
+
+    Added currency photos
+
+commit 8b2f2b7956dcb8412fc95cb66d2159700f95c6ac
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 16:48:47 2016 -0500
+
+    Added whitepapers, 5 minutes
+
+commit 7b99bde085cfd56b15c2560637ee2faac6617159
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Dec 6 16:48:20 2016 -0500
+
+    create index.php, 5 minutes
+
+commit c8a281cb6b4acbfb1eeba95dac76eb5be81a5474
+Merge: 475418f cc7be9b
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Mon Dec 5 13:23:44 2016 -0500
+
+    Merge pull request #12 from jaywunder/styling
+    
+    Tweaked crypto page and added center h1 and h2
+
+commit 475418fbab8f879a557c63b82c6c113136f7d1a3
+Merge: 7c566d9 1758b53
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Mon Dec 5 13:22:55 2016 -0500
+
+    Merge pull request #11 from jaywunder/newsletter
+    
+    Newsletter
+
+commit 1758b53b8a7c7d392c20affe3ac0afebfceca3b2
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Mon Dec 5 13:20:46 2016 -0500
+
+    Fixed all the newsletter bugs
+
+commit 09215639320d861052d62f344bf341dcc65bedca
+Merge: bd21844 c072eca
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Mon Dec 5 12:37:53 2016 -0500
+
+    edits + csv code +  conflicts resolved? - 10 mins
+
+commit bd218440bff9bbb76c08423d27435956c12d08fb
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Mon Dec 5 12:26:33 2016 -0500
+
+    edits + csv code - 30 mins
+
+commit f5fd2ceeb8d0ed953b3cacec369d6bcec994fddb
+Merge: 71f5f6b 7c566d9
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Mon Dec 5 12:04:39 2016 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/master' into newsletter
+
+commit cc7be9be53f343272fbb9ff105e6dc9de938f76d
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Sun Dec 4 21:02:12 2016 -0500
+
+    Tweaked crypto page and added center h1 and h2
+
+commit 7c566d925fd8b8f6e81cd5f4580598ec46087102
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Sun Dec 4 18:31:52 2016 -0500
+
+    Oops 😬 - 15minutes
+
+commit d44ad1c4045e1df920e9292cdf2dec877e0c9254
+Merge: eeb9640 b82568d
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Sun Dec 4 18:30:15 2016 -0500
+
+    Merge pull request #9 from jaywunder/homepage
+    
+    Homepage
+
+commit eeb96407230ca6b22826c77c1c5578b33775869f
+Merge: 58cfe41 2601faf
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Sun Dec 4 18:27:10 2016 -0500
+
+    Merge pull request #10 from jaywunder/hiring
+    
+    Added saveRow function to help with saving to csv files
+
+commit 2601fafd724b4b5f99bf90cac3b46387bf8afac7
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Sun Dec 4 18:26:53 2016 -0500
+
+    Added saveRow function to help with saving to csv files
+
+commit b82568df1fe5b929d06d674514e70a853c4248d6
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Sun Dec 4 17:59:06 2016 -0500
+
+    Updated about/index.php, 25 minutes
+
+commit f52f2f0d0a3d59215a244661f1ca78dd82906160
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Sun Dec 4 17:58:17 2016 -0500
+
+    Updated homepage.php, 5 minutes
+
+commit c52b5d63bae544448bb5340e57dab7fd3cde583b
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Sun Dec 4 17:55:17 2016 -0500
+
+    Updated submitted-page.php, 10 minutes
+
+commit 57f9ca76e6e9a920d0cb0a9f732ba8c5ac87d353
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Sun Dec 4 17:54:00 2016 -0500
+
+    updated submitted_page.php, 15 minutes
+
+commit 2ef8117003e3e7afc747512df0065829f52cd361
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Sun Dec 4 17:51:55 2016 -0500
+
+    Updated index.php, 25 minutes
+
+commit e2acb3b8ab1c6f3d6432c1a56d0f94934a7b1500
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Sun Dec 4 17:48:57 2016 -0500
+
+    Updated Homepage.php, 35 minutes
+
+commit 1e3feea7c910140a1033414fdae47b855a0b4af1
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Sun Dec 4 17:46:33 2016 -0500
+
+    Created submitted_page.php, 20 minutes
+
+commit 7911a7ea29ead2a7be504b36e6be4b51dff20094
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Sun Dec 4 17:46:05 2016 -0500
+
+    Created homepage.php, 15 minutes
+
+commit 71f5f6b5be9a3356f5059577136999aea0b37ab1
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Sun Dec 4 13:43:01 2016 -0500
+
+    changed variables - 45 mins
+
+commit c072eca67ae37a3e8c59b0fade07ccd4614440dd
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Wed Nov 30 12:16:16 2016 -0500
+
+    Fixed small errors
+
+commit f7258187c0e1dd876f8ea437ae1d8e0a4f15804a
+Merge: c7a5d4b 58cfe41
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Wed Nov 30 11:32:47 2016 -0500
+
+    Merge branch 'master' into newsletter
+
+commit c7a5d4baa7e70d5eed6291b1e88b3039392ac22d
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Wed Nov 30 11:32:40 2016 -0500
+
+    Fixed spacing
+
+commit 58cfe417c895c0b5808b42e0828f2e5d465d90be
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Wed Nov 30 11:18:12 2016 -0500
+
+    Added "We're hiring" to the nav"
+
+commit baa80d44cbeacbb86539f3765f5c0481340c44f9
+Merge: 0590005 e3872da
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Wed Nov 30 11:15:26 2016 -0500
+
+    Merge pull request #8 from jaywunder/hiring
+    
+    Hiring
+
+commit 0590005ac107a48ef2e20411c2dfa6c0e399a995
+Merge: 7aed58b ac8938d
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Wed Nov 30 11:11:49 2016 -0500
+
+    Merge pull request #6 from jaywunder/homepage
+    
+    create index.php, 35 minutes
+
+commit ac8938d691a011eac104938693a9e25cf3eb15ca
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Wed Nov 30 11:11:25 2016 -0500
+
+    Moved home page to the home page
+
+commit 7aed58ba0d1093f1914345055de8ae4b0c3e004c
+Merge: f6e7726 d6c41ba
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Wed Nov 30 10:52:57 2016 -0500
+
+    Merge pull request #4 from jaywunder/crypto
+    
+    Crypto
+
+commit f6e772621b440d88259c32f694a013444f41ef38
+Merge: bacf07d 62edfb3
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Wed Nov 30 10:51:33 2016 -0500
+
+    Merge pull request #7 from jaywunder/linux
+    
+    create index.php, 45 minutes
+
+commit 62edfb314206ed9428d64c1d6d6faf4ab55a3792
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Nov 29 19:17:03 2016 -0500
+
+    create index.php, 45 minutes
+
+commit a7d8f72e8713a36bdaaa56506ce09ccab5604c44
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Tue Nov 29 19:11:44 2016 -0500
+
+    create index.php, 35 minutes
+
+commit bacf07d337e2edce75b5f0931b98816a23912ab7
+Merge: af33006 71610b9
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Mon Nov 14 17:16:18 2016 -0500
+
+    Merge pull request #5 from jaywunder/contact
+    
+    created contact/index.php, 20 minutes
+
+commit af33006d30c7a9a79ad266395f9cc8400982a6d3
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Mon Nov 14 14:44:03 2016 -0500
+
+    wrote week3 email - 20minutes
+
+commit 4b4db0156b0b99e884f709ac0438cdc514b0862e
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Mon Nov 14 14:43:58 2016 -0500
+
+    began sanitizing + .csv file - 1.25 hours
+
+commit c3f5a185981aa06123d2319d53b93d2f6f890858
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Mon Nov 14 14:42:34 2016 -0500
+
+    began sanitizing and created .csv file - 1.25 hours
+
+commit 0b653dbe9d388bdd47b2fbaf9c232a8cb883c02e
+Merge: 40fcc05 03b0c57
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Mon Nov 14 12:08:29 2016 -0500
+
+    Merge branch 'master' into newsletter
+
+commit 71610b9ebe59172c4451d7d3bbba63c2f1e9e1b7
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Mon Nov 14 11:38:42 2016 -0500
+
+    create index.php, 20 minutes
+
+commit d6c41baab0344d05f777b62a589b5a5973bcafd3
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Mon Nov 14 09:22:49 2016 -0500
+
+    add bitcoin photo, 5 minutes
+
+commit d627fe07049c4a2fdf8a4fc4e9cba6ed1760737a
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Mon Nov 14 09:20:52 2016 -0500
+
+    created whitepaper.php 1 hour
+
+commit 574a742d6b07c9a9947ab8fd8926f8aad0fc2fa5
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Mon Nov 14 09:19:53 2016 -0500
+
+    update index.php 1.5 hours
+
+commit 40fcc05a98bfd5c195fe859544fd050f35edc3db
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Sun Nov 13 21:36:07 2016 -0500
+
+    edited form + added text boxes for first/last names - 20 mins
+
+commit e3872dad9bfbf694bfc154d455b322a174919eb0
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Sun Nov 13 18:15:34 2016 -0500
+
+    added a list of errors in the form if the user doesn't fill out the form properly - 20minutes
+
+commit 2771a6b84cdf8204ab87f61fa917f4957428306b
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Wed Nov 9 12:34:35 2016 -0500
+
+    removed print statements
+
+commit fbf59f130ab5086b5cd05f09d0be56f232e7a16d
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Wed Nov 9 12:27:58 2016 -0500
+
+    figured out `verifyPhone` doesn't work - 45minutes
+
+commit bbcc9697f13120c9d1be8d4465789c2dacef2cf8
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Tue Nov 8 17:02:21 2016 -0500
+
+    added hiring forms and started handling submitting - 3.5hours
+
+commit 03b0c57d7b2e5b88bdfe32e9b5e742cd8fad1813
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Tue Nov 8 10:48:32 2016 -0500
+
+    possibly fixed ROOT_URL problem
+
+commit 6b02a69ae86b2daf63f41ed514a05b77dae8ef43
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Sun Nov 6 18:52:26 2016 -0500
+
+    added week2 email
+
+commit a6fbde0c610a4ea0685a2a4a4b6f4bfd0bcb40d4
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Sun Nov 6 16:07:13 2016 -0500
+
+    newsletter added form - 1 hour
+
+commit 0f84946e1b13dd2f2cf191ac6ab7fadffe88e2d6
+Merge: d1566b3 982e6bf
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Fri Nov 4 12:43:32 2016 -0400
+
+    Merge remote-tracking branch 'refs/remotes/origin/master' into newsletter
+
+commit d1566b3cd6262a79db2f48f7144d677776ec471e
+Author: kbarrows <16kbarrows@gmail.com>
+Date:   Fri Nov 4 12:42:24 2016 -0400
+
+    added sections - 5 mins
+
+commit 982e6bf378feb58e6e2ae1676939d3962655b4ef
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Fri Nov 4 12:41:13 2016 -0400
+
+    add a .gitignore
+
+commit a8df527eaa6d4e376477860b2d7d475cf91a6480
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Mon Oct 31 13:10:48 2016 -0400
+
+    Updated responsibilities in README - 30minutes
+
+commit 1ec53875279b25c062c96331cff9c00b7af43c17
+Merge: f6a761b 7528a16
+Author: Jacob Wunder <jacob@jacobwunder.com>
+Date:   Mon Oct 31 12:27:26 2016 -0400
+
+    Merge pull request #1 from jaywunder/branching-out
+    
+    h2 added 'myths' to end of doc 35seconds
+
+commit 7528a16196049bdf4a9deeb4c3bad4705e422f7b
+Merge: 472d2b7 f6a761b
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Mon Oct 31 12:23:43 2016 -0400
+
+    Merge remote-tracking branch 'refs/remotes/origin/master' into branching-out
+    
+    # Conflicts:
+    #       crypto/index.php
+
+commit f6a761b3b849c0f318a877f5b22a9ee163feec39
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Sun Oct 30 18:42:06 2016 -0400
+
+    added footer, added css for article elements - 3minutes
+
+commit 472d2b73d1d282312023926224f435e3a0e22052
+Author: hurstycuz <thurst333@gmail.com>
+Date:   Sun Oct 30 18:41:39 2016 -0400
+
+    h2 added 'myths' to end of doc 35seconds
+
+commit 4a8452204cf364b5c9a0957f1eabaccecd0a4365
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Sun Oct 30 18:19:13 2016 -0400
+
+    added nav - 1hour
+
+commit 6af56c21a1c753d425099a02e640df01ae7ef543
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Sun Oct 30 15:20:48 2016 -0400
+
+    update styles, make master.css appear on every page, make head.php - 40minutes
+
+commit a27a48c6a9f87e0555ffddd07f765ec11da92ae1
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Sun Oct 30 14:32:21 2016 -0400
+
+    add README.md - 10minutes
+
+commit bcebc98679df1d5f3a2feb9f51d5a4df3e2cf6bf
+Author: jaywunder <jaywunder@gmail.com>
+Date:   Sun Oct 30 14:06:47 2016 -0400
+
+    initial commit - 15minutes
