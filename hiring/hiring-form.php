@@ -72,6 +72,8 @@
       <br>
       <input checked type="radio" id="gender-other" name="optGender" value="other">
       <label for="gender-other">Other</label>
+
+
     </fieldset>
 
     <fieldset>
@@ -91,6 +93,14 @@
         <option value="ddos-attacker">DDoS Attacker</option>
         <option value="head-of-slack-interactions">Head of slack Interactions (slacker)</option>
       </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>What types of animals do you like?</legend>
+
+      <label><input type="checkbox" id="penguins" value="penguins">Penguins</label><br>
+      <label><input type="checkbox" id="giraffes" value="giraffes">Giraffes</label><br>
+      <label><input type="checkbox" id="fish" value="fish">Fish</label><br>
     </fieldset>
 
     <button type="submit" value="submitted" name="submit">Submit</button>
